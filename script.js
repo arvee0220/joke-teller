@@ -42,7 +42,7 @@ const VoiceRSS = {
                 if (0 == t.responseText.indexOf("ERROR")) throw t.responseText;
                 // new Audio(t.responseText).play();
                 audioElement.src = t.responseText;
-                audioElement.play;
+                audioElement.play();
             }
         }),
             t.open("POST", "https://api.voicerss.org/", !0),
