@@ -114,6 +114,7 @@ const VoiceRSS = {
 const toggleButton = () => {
     button.disabled = !button.disabled;
 };
+
 // Passing Jokes to VoiceRSS
 const tellMe = (joke) => {
     VoiceRSS.speech({
