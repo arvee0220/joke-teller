@@ -1,5 +1,4 @@
 // VoiceRSS JS SDK https://www.voicerss.org/sdk/javascript.aspx
-
 const VoiceRSS = {
     speech: function (e) {
         this._validate(e), this._request(e);
